@@ -1,6 +1,6 @@
 #!/bin/sh
  
-ssh webservers@10.3.70.178 <<EOF
+ssh webserver@10.3.70.178 <<EOF
   cd ~/hello-jenkins
   git pull
   npm install --production
